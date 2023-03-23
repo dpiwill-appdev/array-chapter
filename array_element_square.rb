@@ -12,6 +12,6 @@ user_string = gets.chomp
 
 user_numbers = user_string.split
 
-answer = user_numbers.at(-2)
+answer = user_numbers[-2].to_f ** 2
 
-puts answer.to_i ** 2
+puts answer
